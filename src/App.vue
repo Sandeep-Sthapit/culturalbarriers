@@ -18,7 +18,9 @@ import FormElement from './components/FormElement.vue'
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+@import "./assets/style.scss";
+
 .app-div{
   position: relative;
   width: 100%;

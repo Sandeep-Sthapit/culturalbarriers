@@ -5,6 +5,13 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: 'culturalbarriers',
+  css: {
+    preprocessorOptions: {
+      scss: {
+      }
+    }
+  },
   plugins: [
     vue(),
   ],
